@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Essay Space — personal essays</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <header class="site-header">
+        <button class="logo" id="homeBtn">✧ The Essay Space</button>
+        <div class="nav-links">
+            <a href="#" id="navAbout">About</a>
+            <a href="#" id="navNewsletter">Newsletter</a>
+            <a href="#" id="navLinkedin" target="_blank">LinkedIn</a>
+            <a href="#" id="navPersonalLinks">Personal Links</a>
+        </div>
+    </header>
+
+    <main id="mainContent">
+        <div id="homeView">
+            <div class="hero">
+                <h1>Essays</h1>
+                <div class="sub">On culture, technology, and the quiet art of paying attention.</div>
+                <button class="btn-start" id="startReadingBtn">Start Reading</button>
+            </div>
+        </div>
+        <div id="categoriesView" class="hidden"></div>
+        <div id="essayListView" class="hidden"></div>
+        <div id="essayReaderView" class="hidden"></div>
+        <div id="aboutView" class="hidden"></div>
+        <div id="newsletterView" class="hidden"></div>
+        <div id="personalLinksView" class="hidden"></div>
+    </main>
+    <footer><span>© The Essay Space — words & ideas</span></footer>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
